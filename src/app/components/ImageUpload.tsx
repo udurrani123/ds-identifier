@@ -5,6 +5,7 @@ interface ImageUploadProps {
   onImageUpload: (file: File) => void;
 }
 
+
 export default function ImageUpload({ onImageUpload }: ImageUploadProps): React.JSX.Element {
   const [dragActive, setDragActive] = React.useState(false);
 
